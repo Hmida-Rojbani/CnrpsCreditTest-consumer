@@ -1,6 +1,6 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-xmlns:tns="http://www.tekup.de/soap/models/whitetest"
-targetNamespace="http://www.tekup.de/soap/models/whitetest" elementFormDefault="qualified">
+xmlns:tns="http://www.cnrps.tn/soap/models/whitetest"
+targetNamespace="http://www.cnrps.tn/soap/models/whitetest" elementFormDefault="qualified">
  
     <xsd:element name="StudentRequest">
         <xsd:complexType>
