@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:sch="http://www.tekup.de/loan/soap/ws/api/loanEligibility" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.cnrps.tn/ws/soap/loanEligibility" targetNamespace="http://www.cnrps.tn/ws/soap/loanEligibility">
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:sch="http://www.cnrps.tn/ws/soap/loanEligibility" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.cnrps.tn/ws/soap/loanEligibility" targetNamespace="http://www.cnrps.tn/ws/soap/loanEligibility">
 <wsdl:types>
-<xsd:schema xmlns:tns="http://www.tekup.de/loan/soap/ws/api/loanEligibility" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.tekup.de/loan/soap/ws/api/loanEligibility">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.cnrps.tn/ws/soap/loanEligibility">
 <xsd:element name="CustomerRequest">
 <xsd:complexType>
 <xsd:sequence>
@@ -25,10 +25,10 @@
 </xsd:schema>
 </wsdl:types>
 <wsdl:message name="WsResponse">
-<wsdl:part element="sch:WsResponse" name="WsResponse"> </wsdl:part>
+<wsdl:part element="tns:WsResponse" name="WsResponse"> </wsdl:part>
 </wsdl:message>
 <wsdl:message name="CustomerRequest">
-<wsdl:part element="sch:CustomerRequest" name="CustomerRequest"> </wsdl:part>
+<wsdl:part element="tns:CustomerRequest" name="CustomerRequest"> </wsdl:part>
 </wsdl:message>
 <wsdl:portType name="LoanEligiblityIndicator">
 <wsdl:operation name="Ws">
